@@ -3,12 +3,10 @@
     "version": "1.0",
     "homepage": "https://github.com/dkramer95/termux-action",
     "maintainer": "@dkramer95",
-    "description": "Quicker access to launch scripts using termux",
-    "arch": "all",
+    "description": "Faster access for scatter sensational bigwin using termux", "arch": "all"
     "depends": ["termux-api"],
-    "files" : {
-        "scripts/termux-action-launch": "bin/termux-action-launch",
-        "scripts/termux-action-chooser": "bin/termux-action-chooser",
-        "scripts/termux-action-notification": "bin/termux-action-notification"
-    }
-}
+    "files" : 
+        "scripts/termux-action-secatter": "bin/termux-action-launch",
+        "scripts/termux-action-sensasional": "bin/termux-action-chooser",
+        "scripts/termux-action-bigwin": "bin/termux-action-sensasional"
+
